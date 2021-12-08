@@ -8,4 +8,5 @@ While reading a book, one of the things we would do is using the index at the en
 2. index (Set<Integer>) : Stores the line number where the word appeared.
 3. frequency (integer) : Stores the frequency of the word.
 
-
+#### Methods :
+  
