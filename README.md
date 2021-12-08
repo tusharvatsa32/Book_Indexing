@@ -14,8 +14,8 @@ While reading a book, one of the things we would do is using the index at the en
 3. getFrequency() : returns the frequency of that particular word object.
 4. addToIndex() : takes line number as the input and inserts that in the index set.
 5. getIndex() : returns the set of line numbers for the particular object.
-6. compareTo() : takes another word as the argument, used to compare the word with other word, 
-  return positive integer if word instance is lexicographically bigger than the argument word,
-  return negative integer if word instance is lexicographically smaller than the argument word,
+6. compareTo() : takes another word as the argument, used to compare the word with other word,\
+  return positive integer if word instance is lexicographically bigger than the argument word,\
+  return negative integer if word instance is lexicographically smaller than the argument word,\
   return zero if the two words are lexicographically same.
   
