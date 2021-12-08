@@ -42,5 +42,18 @@ While reading a book, one of the things we would do is using the index at the en
 ##### Methods :
 1. hasNext() : returns true if the stack size is greater than 0.
 2. next() : returns the next node data in the binary search tree(in order fashion).
+  
+### Index.java : Parses the file and stores the words in the binary search tree.
+#### Methods :
+1. buildIndex() : takes the string file name and  builds the binary search tree based on natural ordering.
+2. buildIndex() : takes the string file name and comparator object and builds the binary search based on alternate ordering.
+3. buildIndex() : takes the arraylist and the comparator and builds the binary search from the arraylist.
+4. sortByAlpha(): use AlphaFreq comparator(lexicographical comparison but in case the words are equal we sort by frequency).
+5. sortByFrequency() : use sortByFreq comparator(comparison based on decreasing frequency).
+6. getHighestFrequency() : get the list of words with highest frequency.
+
+### AlphaFreq.java : Compares the word lexicographically and in case of similarity we use frequency to compare.
+### Frequency.java : Compares the word based on decreasing frequency(reverse order).
+### IgnoreCase.java : Converts the word to lower case and then compares lexicographically.
 
   
